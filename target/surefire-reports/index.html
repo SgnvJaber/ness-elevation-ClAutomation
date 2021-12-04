@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="lesson01.Demo" hash-for-method="test01">test01</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="lesson02.MainPage" hash-for-method="Test01">Test01</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -122,14 +122,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">lesson01.Demo</span>
+              <span class="class-name">lesson02.MainPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test01">
-                  </a> <!-- test01 -->
-                  <span class="method-name">test01</span>
+                  <a name="Test01">
+                  </a> <!-- Test01 -->
+                  <span class="method-name">Test01</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,7 +146,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;lesson01.Demo&quot;/&gt;
+      &lt;class name=&quot;lesson02.MainPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -188,14 +188,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test01')
-data.setCell(0, 2, 'lesson01.Demo')
-data.setCell(0, 3, 1);
+data.setCell(0, 1, 'Test01')
+data.setCell(0, 2, 'lesson02.MainPage')
+data.setCell(0, 3, 460);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 460 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -221,18 +221,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">lesson01.Demo</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">lesson02.MainPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">test01</span>
-                <span class="method-start">46337 ms</span>
+                <span class="method-name">Test01</span>
+                <span class="method-start">2831 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <span class="method-name">Close</span>
-                <span class="method-start">46339 ms</span>
+                <span class="method-name">afterClass</span>
+                <span class="method-start">3292 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

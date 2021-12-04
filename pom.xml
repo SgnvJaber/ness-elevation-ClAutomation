@@ -27,6 +27,13 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.16</version>
+        </dependency>
+
     </dependencies>
 
 
@@ -37,7 +44,7 @@
 
     <profiles>
         <profile>
-            <id>Sanity</id>
+            <id>DBDemo</id>
             <build>
                 <plugins>
                     <plugin>

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50529" started-at="2021-11-24T16:20:03 IST" finished-at="2021-11-24T16:20:53 IST">
+  <suite name="Suite" duration-ms="6416" started-at="2021-12-04T22:22:46 IST" finished-at="2021-12-04T22:22:52 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="50529" started-at="2021-11-24T16:20:03 IST" finished-at="2021-11-24T16:20:53 IST">
-      <class name="lesson01.Demo">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:lesson01.Demo@65e2dbf3]" name="openBrowser" is-config="true" duration-ms="46329" started-at="2021-11-24T16:20:03 IST" finished-at="2021-11-24T16:20:49 IST">
+    <test name="Test" duration-ms="6416" started-at="2021-12-04T22:22:46 IST" finished-at="2021-12-04T22:22:52 IST">
+      <class name="lesson02.MainPage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:lesson02.MainPage@61f8bee4]" name="openBrowser" is-config="true" duration-ms="2823" started-at="2021-12-04T22:22:46 IST" finished-at="2021-12-04T22:22:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="test01()[pri:0, instance:lesson01.Demo@65e2dbf3]" name="test01" duration-ms="1" started-at="2021-11-24T16:20:49 IST" finished-at="2021-11-24T16:20:49 IST">
+        <test-method status="PASS" signature="Test01()[pri:0, instance:lesson02.MainPage@61f8bee4]" name="Test01" duration-ms="460" started-at="2021-12-04T22:22:49 IST" finished-at="2021-12-04T22:22:49 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01 -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:lesson01.Demo@65e2dbf3]" name="Close" is-config="true" duration-ms="4176" started-at="2021-11-24T16:20:49 IST" finished-at="2021-11-24T16:20:53 IST">
+        </test-method> <!-- Test01 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:lesson02.MainPage@61f8bee4]" name="afterClass" is-config="true" duration-ms="3111" started-at="2021-12-04T22:22:49 IST" finished-at="2021-12-04T22:22:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Close -->
-      </class> <!-- lesson01.Demo -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- lesson02.MainPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
